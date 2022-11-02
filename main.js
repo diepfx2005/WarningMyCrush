@@ -67,7 +67,7 @@ no.addEventListener("click", function () {
 	btn.classList.remove("pushed");
 	panel.classList.remove("show");
 	clearInterval(theCount);
-	time.innerText = 9;
+	time.innerText = 8;
 	alarm.pause();
 	alarm.currentTime = 10;
 	alarm.play();
